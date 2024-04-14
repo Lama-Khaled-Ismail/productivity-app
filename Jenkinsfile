@@ -10,8 +10,8 @@ pipeline {
     stage('Front-end Test') {
       steps {
         dir(path: 'client') {
-          sh '''sh \'npm install\'
-sh \'npm test\''''
+          sh '''npm install
+npm test'''
         }
 
       }
