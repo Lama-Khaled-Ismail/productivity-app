@@ -11,7 +11,8 @@ pipeline {
       steps {
         dir(path: 'client') {
           sh '''npm install
-npm test'''
+'''
+          sh 'npm test'
         }
 
       }
