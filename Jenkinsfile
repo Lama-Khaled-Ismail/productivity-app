@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools{
-    nodejs '21.7.3'
+    nodejs 'node-latest'
   }
   stages {
     stage('Checkout') {
